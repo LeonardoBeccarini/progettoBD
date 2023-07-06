@@ -1,6 +1,6 @@
-package it.uniroma2.dicii.bd.view;
+package view;
 
-import it.uniroma2.dicii.bd.model.domain.Credentials;
+import model.domain.Credentials;
 
 import java.io.BufferedReader;
 import java.io.IOException;

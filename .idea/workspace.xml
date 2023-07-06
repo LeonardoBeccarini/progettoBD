@@ -1,11 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="08db3a76-3630-42f4-ad24-b5e7c0bb1291" name="Changes" comment="" />
+    <list default="true" id="08db3a76-3630-42f4-ad24-b5e7c0bb1291" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/AggiungiContattoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/ApriOrdineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/aggiungiColorazioneDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/aggiungiIndirizzoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/modificaStatoOrdineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mostraComposizioneDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mostraOrdiniDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/mostraRivenditaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/registraRivenditaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/domain/Colorazione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/domain/Contatto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/domain/Indirizzo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/domain/Rivendita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d070409bf358b57f3cb184c7985e32c0f3d33eb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d070409bf358b57f3cb184c7985e32c0f3d33eb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86982f99af8c91bc69703e21fd3e428b8518934b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86982f99af8c91bc69703e21fd3e428b8518934b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97b8e8294686f9ce399173b12eba8b32c1191301" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97b8e8294686f9ce399173b12eba8b32c1191301" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cddac87129999120b0097e1498ac51abc420295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9db8c7a385ceacb15d8e2069f079114e755df863" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9254d23505c980084e3495a23cc82ca491162ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb9019ae257f0752c3e237c324c8e92dfa0d0aa8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb9019ae257f0752c3e237c324c8e92dfa0d0aa8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63a4808f48f1bbd92638cf1e7674847738436be" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63a4808f48f1bbd92638cf1e7674847738436be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2e98487510e1d15b93452b2143df39538c6c998" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MagazziniereController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MagazziniereController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OperatoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OperatoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/DAOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/AggiungiSpecieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/AggiungiSpecieDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/FinalizzaOrdineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/GenericProcedureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/GenericProcedureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/LoginProcedureDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/LoginProcedureDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/ModificaPrezzoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ModificaPrezzoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/RegistraOrdineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/RegistraRifornimentoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/RegistraRifornimentoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/RegistraSpecieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/RegistraSpecieDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/ReportGiacenzeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ReportGiacenzeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/ReportOrdineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ReportOrdineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/ReportPrezziDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ReportPrezziDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Composizione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Composizione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Credentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Fornitore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Fornitore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Giacenza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Giacenza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Listino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Listino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Ordine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/ReportGiacenze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/ReportGiacenze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/ReportOrdine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/ReportOrdine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/ReportPrezzi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/ReportPrezzi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Rifornimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Rifornimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/SpeciePianta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/SpeciePianta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/domain/Stato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/domain/Stato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/MagazziniereView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MagazziniereView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ManagerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ManagerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/OperatoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/OperatoreView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LzrgBc8gaksqmZfEdYkQgS4lZX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,13 +99,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/39392/IdeaProjects/client-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\39392\IdeaProjects\progettoBD\.idea" />
+      <recent name="C:\Users\39392\IdeaProjects\progettoBD\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="progettoBD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="progettoBD [site:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="site:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,8 +175,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676884867962</updated>
+      <workItem from="1676884869422" duration="3619000" />
+      <workItem from="1676888714943" duration="12807000" />
+      <workItem from="1676977607851" duration="11767000" />
+      <workItem from="1677057575790" duration="18778000" />
+      <workItem from="1677231543704" duration="5430000" />
+      <workItem from="1677258592890" duration="16756000" />
+      <workItem from="1677407567782" duration="12035000" />
+      <workItem from="1677578297718" duration="6972000" />
+      <workItem from="1677801610695" duration="1169000" />
+      <workItem from="1677868599683" duration="10683000" />
+      <workItem from="1678111973616" duration="4942000" />
+      <workItem from="1681209082033" duration="726000" />
+      <workItem from="1683275894918" duration="15000" />
+      <workItem from="1687203286343" duration="97000" />
+      <workItem from="1687610020734" duration="646000" />
+      <workItem from="1687612232066" duration="4664000" />
+      <workItem from="1688060411085" duration="808000" />
+      <workItem from="1688132266653" duration="213000" />
+      <workItem from="1688142313552" duration="1054000" />
+      <workItem from="1688143980717" duration="6791000" />
+      <workItem from="1688226014081" duration="4640000" />
+      <workItem from="1688318363416" duration="6281000" />
+      <workItem from="1688372438351" duration="5757000" />
+      <workItem from="1688398105265" duration="565000" />
+      <workItem from="1688474990010" duration="4816000" />
+      <workItem from="1688547743338" duration="2737000" />
+      <workItem from="1688558564711" duration="12102000" />
+      <workItem from="1688586010871" duration="2278000" />
+      <workItem from="1688589829920" duration="4186000" />
+      <workItem from="1688634734759" duration="3662000" />
+      <workItem from="1688638421900" duration="2370000" />
+      <workItem from="1688664063431" duration="1866000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -41,5 +223,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="24" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="39" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
